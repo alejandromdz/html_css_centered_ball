@@ -20,31 +20,31 @@ div.ball{
     border-radius: 50px;
     background: green;
     position:relative;
-    animation: bounce 10s ease forwards;
+    animation: bounce 10s ease forward;
 }
 
 
 @keyframes bounce{
 0%{
-    top:-10%;
-    left:-40%;
+    top:0px;
+    left:0px;
 }
 20%{
 
-    top:30%;
-    left:10%;
+    top:50%;
+    left:50%;
 }
 40%{
-    top:-40%;
-    left:40%;
+    top:-50%;
+    left:50%;
 }
 60%{
-    top:30%;
-    left:-20%;
+    top:50%;
+    left:-50%;
 }
 80%{
-    top:-40%;
-    left:-10%;
+    top:-50%;
+    left:-50%;
 }
 100%{
     top:0px;
